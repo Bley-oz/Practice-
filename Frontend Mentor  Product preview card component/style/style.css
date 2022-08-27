@@ -77,7 +77,7 @@ body {
 }
 .title {
     font-family: var(--mont);
-    /* font-weight: 500; */
+    font-weight: 500;
     font-size: 13px;
     color: var(--DarkGrayishBlue);
     text-transform: uppercase;
