@@ -25,30 +25,35 @@ a {
     color: var(--White);
 }
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-color: var(--Cream);
 }
 
 .container {
     max-width: 300px;
     margin: 0 auto;
-    margin-top: 5vh;
+    min-margin: 5vh; 
+    margin-top: 10vh;
 }
 @media (min-width: 768px) {
     .container {
         max-width: 600px;
         margin: 0 auto;
-        margin-top: 15vh;
+        margin-top: 25vh;
     }
 }
 
 .card {
     background-color: var(--White);
     border-radius: 10px;
+    
 }
 @media (min-width: 768px) {
     .card {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 50% 50%;
         align-items: center;
     }
 }
@@ -74,6 +79,7 @@ body {
 }
 .container-information {
     padding: 20px;
+
 }
 .title {
     font-family: var(--mont);
@@ -110,6 +116,7 @@ body {
     font-family: var(--Frau);
     font-size: 30px;
     color: var(--Darkcyan);
+    font-weight: 700;
 }
 .lprice {
     font-family: var(--mont);
